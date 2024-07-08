@@ -1,13 +1,15 @@
 <!-- JS -->
 
 <script setup>
+import NestedComponent from '@/components/NestedComponent.vue'
 console.log('Hello World')
 </script>
 
 <!-- Html -->
 
 <template>
-  <h1>Hello World</h1>
+  <h1>Hello World (this is a parent component)</h1>
+  <NestedComponent />
 </template>
 <!-- Css -->
 
