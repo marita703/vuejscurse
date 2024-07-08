@@ -2,6 +2,7 @@
 
 <script setup>
 import NestedComponent from '@/components/NestedComponent.vue'
+import TextInterpolation from '@/components/TextInterpolation.vue'
 console.log('Hello World')
 </script>
 
@@ -10,6 +11,7 @@ console.log('Hello World')
 <template>
   <h1>Hello World (this is a parent component)</h1>
   <NestedComponent />
+  <TextInterpolation />
 </template>
 <!-- Css -->
 
