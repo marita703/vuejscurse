@@ -12,6 +12,7 @@ import MyEvent from '@/components/MyEvent.vue'
 import MyReactiveComponent from '@/components/MyReactiveComponent.vue'
 import MyRefComponent from '@/components/MyRefComponent.vue'
 import ComputedProperties from '@/components/ComputedProperties.vue'
+import ConditionalRenderingComponent from '@/components/ConditionalRenderingComponent.vue'
 console.log('Hello World')
 </script>
 
@@ -31,6 +32,7 @@ console.log('Hello World')
     <MyReactiveComponent />
     <MyRefComponent />
     <ComputedProperties />
+    <ConditionalRenderingComponent />
   </div>
 </template>
 <!-- Css -->
