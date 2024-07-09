@@ -9,6 +9,7 @@ import LocalStyle from '@/components/LocalStyle.vue'
 import CombinedStyle from '@/components/CombinedStyle.vue'
 import ModuleStyle from '@/components/ModuleStyle.vue'
 import MyEvent from '@/components/MyEvent.vue'
+import MyReactiveComponent from '@/components/MyReactiveComponent.vue'
 console.log('Hello World')
 </script>
 
@@ -25,6 +26,7 @@ console.log('Hello World')
     <CombinedStyle />
     <ModuleStyle />
     <MyEvent />
+    <MyReactiveComponent />
   </div>
 </template>
 <!-- Css -->
