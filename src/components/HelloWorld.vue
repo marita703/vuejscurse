@@ -14,6 +14,7 @@ import MyRefComponent from '@/components/MyRefComponent.vue'
 import ComputedProperties from '@/components/ComputedProperties.vue'
 import ConditionalRenderingComponent from '@/components/ConditionalRenderingComponent.vue'
 import IterationComponent from '@/components/IterationComponent.vue'
+import TwoBindingComponent from '@/components/TwoBindingComponent.vue'
 console.log('Hello World')
 </script>
 
@@ -35,6 +36,7 @@ console.log('Hello World')
     <ComputedProperties />
     <ConditionalRenderingComponent />
     <IterationComponent />
+    <TwoBindingComponent />
   </div>
 </template>
 <!-- Css -->
