@@ -11,6 +11,7 @@ import ModuleStyle from '@/components/ModuleStyle.vue'
 import MyEvent from '@/components/MyEvent.vue'
 import MyReactiveComponent from '@/components/MyReactiveComponent.vue'
 import MyRefComponent from '@/components/MyRefComponent.vue'
+import ComputedProperties from '@/components/ComputedProperties.vue'
 console.log('Hello World')
 </script>
 
@@ -29,6 +30,7 @@ console.log('Hello World')
     <MyEvent />
     <MyReactiveComponent />
     <MyRefComponent />
+    <ComputedProperties />
   </div>
 </template>
 <!-- Css -->
