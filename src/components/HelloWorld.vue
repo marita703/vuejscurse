@@ -13,6 +13,7 @@ import MyReactiveComponent from '@/components/MyReactiveComponent.vue'
 import MyRefComponent from '@/components/MyRefComponent.vue'
 import ComputedProperties from '@/components/ComputedProperties.vue'
 import ConditionalRenderingComponent from '@/components/ConditionalRenderingComponent.vue'
+import IterationComponent from '@/components/IterationComponent.vue'
 console.log('Hello World')
 </script>
 
@@ -33,6 +34,7 @@ console.log('Hello World')
     <MyRefComponent />
     <ComputedProperties />
     <ConditionalRenderingComponent />
+    <IterationComponent />
   </div>
 </template>
 <!-- Css -->
