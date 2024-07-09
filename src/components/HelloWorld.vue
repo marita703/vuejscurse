@@ -4,6 +4,10 @@
 import NestedComponent from '@/components/NestedComponent.vue'
 import TextInterpolation from '@/components/TextInterpolation.vue'
 import AttributeBinding from '@/components/AttributeBinding.vue'
+import GlobalStyle from '@/components/GlobalStyle.vue'
+import LocalStyle from '@/components/LocalStyle.vue'
+import CombinedStyle from '@/components/CombinedStyle.vue'
+import ModuleStyle from '@/components/ModuleStyle.vue'
 console.log('Hello World')
 </script>
 
@@ -15,6 +19,10 @@ console.log('Hello World')
     <NestedComponent />
     <TextInterpolation />
     <AttributeBinding />
+    <GlobalStyle />
+    <LocalStyle />
+    <CombinedStyle />
+    <ModuleStyle />
   </div>
 </template>
 <!-- Css -->

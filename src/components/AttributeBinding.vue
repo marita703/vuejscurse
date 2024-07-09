@@ -18,7 +18,7 @@ const imageInfo = {
   <a v-bind:href="myChannel">Mar's website</a>
   <a :href="myChannel">Mar's website</a>
   <img class="hola" :src="amazingImage" style="margin-top: 2rem" :alt="altText" />
-  <img :src="imageInfo" />
+  <img :src="imageInfo.src" :alt="imageInfo.alt" style="margin-top: 2rem" />
 </template>
 
 <!-- css -->
