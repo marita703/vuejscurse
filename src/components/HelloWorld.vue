@@ -15,6 +15,12 @@ import ComputedProperties from '@/components/ComputedProperties.vue'
 import ConditionalRenderingComponent from '@/components/ConditionalRenderingComponent.vue'
 import IterationComponent from '@/components/IterationComponent.vue'
 import TwoBindingComponent from '@/components/TwoBindingComponent.vue'
+import StaticPropsComponent from '@/components/StaticPropsComponent.vue'
+import DynamicPropsComponent from '@/components/DynamicPropsComponent.vue'
+
+import { ref } from 'vue'
+const firstName = ref('Mar')
+const lastName = ref('Martinez')
 console.log('Hello World')
 </script>
 
@@ -37,6 +43,8 @@ console.log('Hello World')
     <ConditionalRenderingComponent />
     <IterationComponent />
     <TwoBindingComponent />
+    <StaticPropsComponent name="Jordan" />
+    <DynamicPropsComponent :firstName="firstName" :lastName="lastName" />
   </div>
 </template>
 <!-- Css -->
