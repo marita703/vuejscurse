@@ -17,10 +17,13 @@ import IterationComponent from '@/components/IterationComponent.vue'
 import TwoBindingComponent from '@/components/TwoBindingComponent.vue'
 import StaticPropsComponent from '@/components/StaticPropsComponent.vue'
 import DynamicPropsComponent from '@/components/DynamicPropsComponent.vue'
+import ChangingPropsValueComponent from '@/components/ChangingPropsValueComponent.vue'
 
 import { ref } from 'vue'
 const firstName = ref('Mar')
 const lastName = ref('Martinez')
+const myFavoriteNumber = ref(7)
+
 console.log('Hello World')
 </script>
 
@@ -45,6 +48,7 @@ console.log('Hello World')
     <TwoBindingComponent />
     <StaticPropsComponent name="Jordan" />
     <DynamicPropsComponent :firstName="firstName" :lastName="lastName" />
+    <ChangingPropsValueComponent :myFavoriteNumber="myFavoriteNumber" />
   </div>
 </template>
 <!-- Css -->
