@@ -20,6 +20,8 @@ import DynamicPropsComponent from '@/components/DynamicPropsComponent.vue'
 import ChangingPropsValueComponent from '@/components/ChangingPropsValueComponent.vue'
 import PropValidationComponent from '@/components/PropValidationComponent.vue'
 import ParentComponent from '@/components/ParentAndChildComponents/ParentComponent.vue'
+import SlotComponent from '@/components/SlotComponent.vue'
+import FallbackContent from '@/components/FallbackContent.vue'
 
 import { ref } from 'vue'
 const firstName = ref('Mar')
@@ -53,6 +55,13 @@ console.log('Hello World')
     <ChangingPropsValueComponent :myFavoriteNumber="myFavoriteNumber" />
     <PropValidationComponent fullName="Mar" :age="20" />
     <ParentComponent />
+    <!-- Slot components are called differently , is not an autoclosing tag -->
+
+    <SlotComponent>
+      <h1>Content 1</h1>
+    </SlotComponent>
+
+    <FallbackContent />
   </div>
 </template>
 <!-- Css -->
