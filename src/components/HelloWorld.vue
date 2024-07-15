@@ -24,6 +24,7 @@ import SlotComponent from '@/components/SlotComponent.vue'
 import FallbackContent from '@/components/FallbackContent.vue'
 
 import NamedSlotComponent from '@/components/NamedSlotComponent.vue'
+import MasterParentComponent from '@/components/ProvideAndInject/MasterParentComponent.vue'
 
 import { ref } from 'vue'
 const firstName = ref('Mar')
@@ -80,6 +81,8 @@ console.log('Hello World')
 
       <template #two> This content will go to slot 2 </template>
     </NamedSlotComponent>
+
+    <MasterParentComponent />
   </div>
 </template>
 <!-- Css -->
