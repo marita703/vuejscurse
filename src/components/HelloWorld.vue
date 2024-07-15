@@ -23,6 +23,8 @@ import ParentComponent from '@/components/ParentAndChildComponents/ParentCompone
 import SlotComponent from '@/components/SlotComponent.vue'
 import FallbackContent from '@/components/FallbackContent.vue'
 
+import NamedSlotComponent from '@/components/NamedSlotComponent.vue'
+
 import { ref } from 'vue'
 const firstName = ref('Mar')
 const lastName = ref('Martinez')
@@ -62,6 +64,22 @@ console.log('Hello World')
     </SlotComponent>
 
     <FallbackContent />
+
+    <FallbackContent>
+      <p>Fallback will not work, because I am providing content inside the Parent</p>
+    </FallbackContent>
+
+    <hr />
+
+    <NamedSlotComponent>
+      <!-- v-slot:one -->
+
+      <template v-slot:one> this content will go to slot 1 </template>
+
+      <!-- #two -->
+
+      <template #two> This content will go to slot 2 </template>
+    </NamedSlotComponent>
   </div>
 </template>
 <!-- Css -->
