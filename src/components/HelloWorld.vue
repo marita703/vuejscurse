@@ -18,6 +18,8 @@ import TwoBindingComponent from '@/components/TwoBindingComponent.vue'
 import StaticPropsComponent from '@/components/StaticPropsComponent.vue'
 import DynamicPropsComponent from '@/components/DynamicPropsComponent.vue'
 import ChangingPropsValueComponent from '@/components/ChangingPropsValueComponent.vue'
+import PropValidationComponent from '@/components/PropValidationComponent.vue'
+import ParentComponent from '@/components/ParentAndChildComponents/ParentComponent.vue'
 
 import { ref } from 'vue'
 const firstName = ref('Mar')
@@ -49,6 +51,8 @@ console.log('Hello World')
     <StaticPropsComponent name="Jordan" />
     <DynamicPropsComponent :firstName="firstName" :lastName="lastName" />
     <ChangingPropsValueComponent :myFavoriteNumber="myFavoriteNumber" />
+    <PropValidationComponent fullName="Mar" :age="20" />
+    <ParentComponent />
   </div>
 </template>
 <!-- Css -->
