@@ -25,11 +25,14 @@ import FallbackContent from '@/components/FallbackContent.vue'
 
 import NamedSlotComponent from '@/components/NamedSlotComponent.vue'
 import MasterParentComponent from '@/components/ProvideAndInject/MasterParentComponent.vue'
+import LifeCycleComponent from '@/components/LifeCycleComponents/LifeCycleComponent.vue'
 
 import { ref } from 'vue'
 const firstName = ref('Mar')
 const lastName = ref('Martinez')
 const myFavoriteNumber = ref(7)
+
+let showHide = ref(true)
 
 console.log('Hello World')
 </script>
@@ -83,6 +86,10 @@ console.log('Hello World')
     </NamedSlotComponent>
 
     <MasterParentComponent />
+    <div>
+      <LifeCycleComponent v-if="showHide" />
+      <button @click="showHide = !showHide">Unmount component</button>
+    </div>
   </div>
 </template>
 <!-- Css -->
