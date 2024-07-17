@@ -27,6 +27,8 @@ import NamedSlotComponent from '@/components/NamedSlotComponent.vue'
 import MasterParentComponent from '@/components/ProvideAndInject/MasterParentComponent.vue'
 import LifeCycleComponent from '@/components/LifeCycleComponents/LifeCycleComponent.vue'
 
+import WatchersComponent from '@/components/WatchersComponentComponent.vue'
+
 import { ref } from 'vue'
 const firstName = ref('Mar')
 const lastName = ref('Martinez')
@@ -90,6 +92,7 @@ console.log('Hello World')
       <LifeCycleComponent v-if="showHide" />
       <button @click="showHide = !showHide">Unmount component</button>
     </div>
+    <WatchersComponent />
   </div>
 </template>
 <!-- Css -->
