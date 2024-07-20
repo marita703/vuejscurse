@@ -27,7 +27,8 @@ import NamedSlotComponent from '@/components/NamedSlotComponent.vue'
 import MasterParentComponent from '@/components/ProvideAndInject/MasterParentComponent.vue'
 import LifeCycleComponent from '@/components/LifeCycleComponents/LifeCycleComponent.vue'
 
-import WatchersComponent from '@/components/WatchersComponentComponent.vue'
+import WatchersComponent from '@/components/WatchersComponent.vue'
+import WatcherReactiveObject from '@/components/WatcherReactiveObject.vue'
 
 import { ref } from 'vue'
 const firstName = ref('Mar')
@@ -93,6 +94,7 @@ console.log('Hello World')
       <button @click="showHide = !showHide">Unmount component</button>
     </div>
     <WatchersComponent />
+    <WatcherReactiveObject />
   </div>
 </template>
 <!-- Css -->
