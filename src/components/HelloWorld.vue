@@ -27,8 +27,9 @@ import NamedSlotComponent from '@/components/NamedSlotComponent.vue'
 import MasterParentComponent from '@/components/ProvideAndInject/MasterParentComponent.vue'
 import LifeCycleComponent from '@/components/LifeCycleComponents/LifeCycleComponent.vue'
 
-import WatchersComponent from '@/components/WatchersComponent.vue'
-import WatcherReactiveObject from '@/components/WatcherReactiveObject.vue'
+import WatchersComponent from '@/components/Watchers/WatchersComponent.vueonent.vue'
+import WatcherReactiveObject from '@/components/Watchers/WatcherReactiveObject.vue'
+import MultipleSourcesComponent from '@/components/Watchers/MultipleSourcesComponent.vue'
 
 import { ref } from 'vue'
 const firstName = ref('Mar')
@@ -95,6 +96,7 @@ console.log('Hello World')
     </div>
     <WatchersComponent />
     <WatcherReactiveObject />
+    <MultipleSourcesComponent />
   </div>
 </template>
 <!-- Css -->
