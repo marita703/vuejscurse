@@ -27,7 +27,7 @@ import NamedSlotComponent from '@/components/NamedSlotComponent.vue'
 import MasterParentComponent from '@/components/ProvideAndInject/MasterParentComponent.vue'
 import LifeCycleComponent from '@/components/LifeCycleComponents/LifeCycleComponent.vue'
 
-import WatchersComponent from '@/components/Watchers/WatchersComponent.vueonent.vue'
+import WatchersComponent from '@/components/Watchers/WatchersComponent.vue'
 import WatcherReactiveObject from '@/components/Watchers/WatcherReactiveObject.vue'
 import MultipleSourcesComponent from '@/components/Watchers/MultipleSourcesComponent.vue'
 
