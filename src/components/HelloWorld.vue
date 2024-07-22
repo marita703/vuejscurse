@@ -31,7 +31,9 @@ import WatchersComponent from '@/components/Watchers/WatchersComponent.vue'
 import WatcherReactiveObject from '@/components/Watchers/WatcherReactiveObject.vue'
 import MultipleSourcesComponent from '@/components/Watchers/MultipleSourcesComponent.vue'
 
-import TempleteRefComponent from '@/components/TempleteRefComponent.vue'
+import TempleteRefComponent from '@/components/RefTemplates/TempleteRefComponent.vue'
+import FunctionRefComponent from '@/components/RefTemplates/FunctionRefComponent.vue'
+import RefComponent from '@/components/RefTemplates/RefComponent.vue'
 
 import { ref } from 'vue'
 const firstName = ref('Mar')
@@ -100,6 +102,9 @@ console.log('Hello World')
     <WatcherReactiveObject />
     <MultipleSourcesComponent />
     <TempleteRefComponent />
+    <FunctionRefComponent />
+
+    <RefComponent />
   </div>
 </template>
 <!-- Css -->
