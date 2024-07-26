@@ -39,6 +39,10 @@ import ToggleFriends from '@/components/AsyncComponents/ToggleFriends.vue'
 import Composables from '@/components/Composables/Composables.vue'
 import YetAnotherComponent from '@/components/Composables/YetAnotherComponent.vue'
 
+import CustomDirectives from '@/components/CustomDirectives/CustomDirectives.vue'
+
+import MainComponent from '@/components/DynamicComponents/MainComponent.vue'
+
 import { ref } from 'vue'
 const firstName = ref('Mar')
 const lastName = ref('Martinez')
@@ -114,6 +118,9 @@ console.log('Hello World')
 
     <Composables />
     <YetAnotherComponent />
+    <CustomDirectives />
+
+    <MainComponent />
   </div>
 </template>
 <!-- Css -->
