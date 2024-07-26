@@ -34,6 +34,7 @@ import MultipleSourcesComponent from '@/components/Watchers/MultipleSourcesCompo
 import TempleteRefComponent from '@/components/RefTemplates/TempleteRefComponent.vue'
 import FunctionRefComponent from '@/components/RefTemplates/FunctionRefComponent.vue'
 import RefComponent from '@/components/RefTemplates/RefComponent.vue'
+import ToggleFriends from '@/components/AsyncComponents/ToggleFriends.vue'
 
 import { ref } from 'vue'
 const firstName = ref('Mar')
@@ -105,6 +106,8 @@ console.log('Hello World')
     <FunctionRefComponent />
 
     <RefComponent />
+
+    <ToggleFriends />
   </div>
 </template>
 <!-- Css -->
