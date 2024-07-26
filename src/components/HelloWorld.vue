@@ -36,6 +36,9 @@ import FunctionRefComponent from '@/components/RefTemplates/FunctionRefComponent
 import RefComponent from '@/components/RefTemplates/RefComponent.vue'
 import ToggleFriends from '@/components/AsyncComponents/ToggleFriends.vue'
 
+import Composables from '@/components/Composables/Composables.vue'
+import YetAnotherComponent from '@/components/Composables/YetAnotherComponent.vue'
+
 import { ref } from 'vue'
 const firstName = ref('Mar')
 const lastName = ref('Martinez')
@@ -108,6 +111,9 @@ console.log('Hello World')
     <RefComponent />
 
     <ToggleFriends />
+
+    <Composables />
+    <YetAnotherComponent />
   </div>
 </template>
 <!-- Css -->
