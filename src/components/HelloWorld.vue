@@ -42,6 +42,7 @@ import YetAnotherComponent from '@/components/Composables/YetAnotherComponent.vu
 import CustomDirectives from '@/components/CustomDirectives/CustomDirectives.vue'
 
 import MainComponent from '@/components/DynamicComponents/MainComponent.vue'
+import GetData from '@/components/FetchingData/GetData.vue'
 
 import { ref } from 'vue'
 const firstName = ref('Mar')
@@ -121,6 +122,7 @@ console.log('Hello World')
     <CustomDirectives />
 
     <MainComponent />
+    <GetData />
   </div>
 </template>
 <!-- Css -->
